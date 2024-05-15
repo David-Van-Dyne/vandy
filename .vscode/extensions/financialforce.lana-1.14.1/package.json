@@ -1,0 +1,187 @@
+{
+	"name": "lana",
+	"displayName": "Apex Log Analyzer",
+	"version": "1.14.1",
+	"description": "Analyzer for Salesforce debug logs - Visualize code execution via a Flame graph and identify performance and SOQL/DML problems via Method and Database analysis",
+	"keywords": [
+		"apex",
+		"apexlog",
+		"analyzer",
+		"debug",
+		"debuglog",
+		"log",
+		"log analyzer",
+		"log profiler",
+		"log profiling",
+		"performance",
+		"performance analyzer",
+		"performance profiler",
+		"performance profiling",
+		"profiler",
+		"profiling",
+		"salesforce"
+	],
+	"main": "out/Main.js",
+	"icon": "certinia-icon-color.png",
+	"galleryBanner": {
+		"color": "#000000",
+		"theme": "dark"
+	},
+	"publisher": "FinancialForce",
+	"author": "",
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/certinia/debug-log-analyzer.git"
+	},
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:apexlog"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "lana.retrieveLogFile",
+				"title": "Log: Retrieve Apex Log And Show Analysis",
+				"icon": "./certinia-icon-color.png"
+			},
+			{
+				"command": "lana.showLogAnalysis",
+				"title": "Log: Show Apex Log Analysis",
+				"icon": "./certinia-icon-color.png"
+			}
+		],
+		"languages": [
+			{
+				"id": "apexlog",
+				"aliases": [
+					"ApexLog",
+					"DebugLog"
+				],
+				"extensions": [
+					".log",
+					".txt"
+				],
+				"firstLine": "^\\d\\d.\\d.+?APEX_CODE,\\w.+$"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "lana.showLogAnalysis",
+					"when": "resourceLangId == apexlog"
+				}
+			],
+			"editor/context": [
+				{
+					"command": "lana.showLogAnalysis",
+					"when": "resourceLangId == apexlog"
+				}
+			],
+			"explorer/context": [
+				{
+					"command": "lana.showLogAnalysis",
+					"when": "resourceLangId == apexlog"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "Apex Log Analyzer",
+			"properties": {
+				"lana.timeline.colors": {
+					"type": "object",
+					"default": {
+						"Code Unit": "#88AE58",
+						"Workflow": "#51A16E",
+						"Method": "#2B8F81",
+						"Flow": "#337986",
+						"DML": "#285663",
+						"SOQL": "#5D4963",
+						"System Method": "#5C3444"
+					},
+					"properties": {
+						"Code Unit": {
+							"type": "string",
+							"default": "#88AE58",
+							"description": "Hex color for Code Unit timeline events."
+						},
+						"Workflow": {
+							"type": "string",
+							"default": "#51A16E",
+							"description": "Hex color for Workflow timeline events."
+						},
+						"Method": {
+							"type": "string",
+							"default": "#2B8F81",
+							"description": "Hex color for Method timeline events."
+						},
+						"Flow": {
+							"type": "string",
+							"default": "#337986",
+							"description": "Hex color for Flow timeline events."
+						},
+						"DML": {
+							"type": "string",
+							"default": "#285663",
+							"description": "Hex color for DML timeline events."
+						},
+						"SOQL": {
+							"type": "string",
+							"default": "#5D4963",
+							"description": "Hex color for SOQL timeline events."
+						},
+						"System Method": {
+							"type": "string",
+							"default": "#5C3444",
+							"description": "Hex color for System Method timeline events."
+						}
+					},
+					"description": "Colors used for each event type on the Timeline",
+					"additionalProperties": false
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "pnpm run compile",
+		"compile": "pnpm -w run build",
+		"local-compile": "rm -rf out && rollup -c rollup.config.mjs",
+		"prettier-format": "prettier 'src/**/*.ts' --write",
+		"watch": "rollup -w -c rollup.config.mjs",
+		"pretest": "pnpm run compile && pnpm run lint",
+		"lint": "concurrently 'eslint src --ext ts' 'pnpm run tsc:lint'",
+		"log-viewer": "pnpm run log-viewer-build && pnpm run log-viewer-copy",
+		"log-viewer-build": "(cd ../log-viewer; pnpm ci && pnpm run build)",
+		"log-viewer-copy": "mkdir -p out; cp ../log-viewer/out/index.html out/. && cp ../log-viewer/out/bundle.js out/.",
+		"tsc:lint": "tsc --noemit --skipLibCheck"
+	},
+	"dependencies": {
+		"@apexdevtools/apex-ls": "^4.3.1",
+		"@apexdevtools/sfdx-auth-helper": "^2.1.0",
+		"@salesforce/apex-node": "^1.6.2"
+	},
+	"devDependencies": {
+		"@types/node": "~18.15.13",
+		"@types/vscode": "~1.74.0",
+		"@typescript-eslint/eslint-plugin": "^6.14.0",
+		"@typescript-eslint/parser": "^6.14.0",
+		"typescript": "^5.3.3"
+	},
+	"__metadata": {
+		"id": "7c599a77-48cb-4248-b657-492714803364",
+		"publisherId": "9a17ba87-cdf0-4eef-8a86-ded0e06496be",
+		"publisherDisplayName": "Certinia",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1715755086128,
+		"source": "gallery"
+	}
+}
