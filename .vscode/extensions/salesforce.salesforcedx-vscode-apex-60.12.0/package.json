@@ -1,0 +1,384 @@
+{
+	"activationEvents": [
+		"workspaceContains:sfdx-project.json"
+	],
+	"bugs": {
+		"url": "https://github.com/forcedotcom/salesforcedx-vscode/issues"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "sf.anon.apex.execute.document",
+				"title": "%anon_apex_execute_document_text%"
+			},
+			{
+				"command": "sf.anon.apex.execute.selection",
+				"title": "%anon_apex_execute_selection_text%"
+			},
+			{
+				"command": "sf.apex.log.get",
+				"title": "%apex_log_get_text%"
+			},
+			{
+				"command": "sf.apex.test.run",
+				"title": "%apex_test_run_text%"
+			},
+			{
+				"command": "sf.apex.test.suite.run",
+				"title": "%apex_test_suite_run_text%"
+			},
+			{
+				"command": "sf.apex.test.suite.create",
+				"title": "%apex_test_suite_create_text%"
+			},
+			{
+				"command": "sf.apex.test.suite.add",
+				"title": "%apex_test_suite_build_text%"
+			},
+			{
+				"command": "sf.test.view.run",
+				"icon": {
+					"dark": "resources/dark/play-button.svg",
+					"light": "resources/light/play-button.svg"
+				},
+				"title": "%run_tests_title%"
+			},
+			{
+				"command": "sf.test.view.refresh",
+				"icon": {
+					"dark": "resources/dark/refresh.svg",
+					"light": "resources/light/refresh.svg"
+				},
+				"title": "%refresh_test_title%"
+			},
+			{
+				"command": "sf.test.view.showError",
+				"icon": {
+					"dark": "resources/dark/document/notRun.svg",
+					"light": "resources/light/document/notRun.svg"
+				},
+				"title": "%show_error_title%"
+			},
+			{
+				"command": "sf.test.view.goToDefinition",
+				"icon": {
+					"dark": "resources/dark/document/notRun.svg",
+					"light": "resources/light/document/notRun.svg"
+				},
+				"title": "%go_to_definition_title%"
+			},
+			{
+				"command": "sf.test.view.runClassTests",
+				"icon": {
+					"dark": "resources/dark/play-button.svg",
+					"light": "resources/light/play-button.svg"
+				},
+				"title": "%run_tests_title%"
+			},
+			{
+				"command": "sf.test.view.runSingleTest",
+				"icon": {
+					"dark": "resources/dark/play-button.svg",
+					"light": "resources/light/play-button.svg"
+				},
+				"title": "%run_single_test_title%"
+			},
+			{
+				"command": "sf.apex.test.last.class.run",
+				"title": "%apex_test_last_class_run_text%"
+			},
+			{
+				"command": "sf.apex.test.class.run",
+				"title": "%apex_test_class_run_text%"
+			},
+			{
+				"command": "sf.apex.test.method.run",
+				"title": "%apex_test_method_run_text%"
+			},
+			{
+				"command": "sf.apex.test.last.method.run",
+				"title": "%apex_test_last_method_run_text%"
+			}
+		],
+		"configuration": {
+			"properties": {
+				"apex.trace.server": {
+					"default": "off",
+					"description": "%apex_trace_server_description%",
+					"enum": [
+						"verbose",
+						"messages",
+						"off"
+					],
+					"enumDescriptions": [
+						"%apex_verbose_level_trace_description%",
+						"%apex_messages_level_trace_description%",
+						"%apex_off_level_trace_description%"
+					],
+					"type": "string"
+				},
+				"salesforcedx-vscode-apex.advanced.enable-completion-statistics": {
+					"default": false,
+					"description": "%apex_code_completion_stats_description%",
+					"type": "boolean"
+				},
+				"salesforcedx-vscode-apex.disable-warnings-for-missing-coverage": {
+					"default": false,
+					"description": "%apex_code_disable-warnings-for-missing-coverage%",
+					"type": "boolean"
+				},
+				"salesforcedx-vscode-apex.enable-semantic-errors": {
+					"default": false,
+					"description": "%apex_semantic_errors_description%",
+					"type": "boolean"
+				},
+				"salesforcedx-vscode-apex.java.home": {
+					"default": null,
+					"markdownDescription": "%java_home_description%",
+					"type": "string"
+				},
+				"salesforcedx-vscode-apex.java.memory": {
+					"default": null,
+					"description": "%java_memory_description%",
+					"minimum": 0,
+					"type": [
+						"integer",
+						"null"
+					]
+				}
+			},
+			"title": "%configuration_title%",
+			"type": "object"
+		},
+		"grammars": [
+			{
+				"language": "apex",
+				"path": "./grammars/apex.tmLanguage",
+				"scopeName": "source.apex"
+			},
+			{
+				"language": "apex-anon",
+				"path": "./grammars/apex.tmLanguage",
+				"scopeName": "source.apex"
+			}
+		],
+		"languages": [
+			{
+				"aliases": [
+					"Apex",
+					"apex"
+				],
+				"configuration": "./syntaxes/apex.configuration.json",
+				"extensions": [
+					".cls",
+					".trigger",
+					".soql"
+				],
+				"id": "apex"
+			},
+			{
+				"aliases": [
+					"Anonymous Apex"
+				],
+				"configuration": "./syntaxes/apex.configuration.json",
+				"extensions": [
+					".apex"
+				],
+				"id": "apex-anon"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "sf.anon.apex.execute.selection",
+					"when": "sf:project_opened && editorHasSelection && sf:has_target_org"
+				},
+				{
+					"command": "sf.anon.apex.execute.document",
+					"when": "sf:project_opened && !editorHasSelection && sf:has_target_org"
+				},
+				{
+					"command": "sf.apex.log.get",
+					"when": "sf:project_opened && sf:has_target_org"
+				},
+				{
+					"command": "sf.apex.test.last.class.run",
+					"when": "sf:project_opened && sf:has_cached_test_class && sf:has_target_org"
+				},
+				{
+					"command": "sf.apex.test.class.run",
+					"when": "false"
+				},
+				{
+					"command": "sf.apex.test.method.run",
+					"when": "false"
+				},
+				{
+					"command": "sf.apex.test.last.method.run",
+					"when": "sf:project_opened && sf:has_cached_test_method && sf:has_target_org"
+				},
+				{
+					"command": "sf.apex.test.run",
+					"when": "sf:project_opened && sf:has_target_org"
+				},
+				{
+					"command": "sf.apex.test.suite.run",
+					"when": "sf:project_opened && sf:has_target_org"
+				},
+				{
+					"command": "sf.apex.test.suite.create",
+					"when": "sf:project_opened && sf:has_target_org"
+				},
+				{
+					"command": "sf.apex.test.suite.add",
+					"when": "sf:project_opened && sf:has_target_org"
+				},
+				{
+					"command": "sf.test.view.runClassTests",
+					"when": "false"
+				},
+				{
+					"command": "sf.test.view.runSingleTest",
+					"when": "false"
+				},
+				{
+					"command": "sf.test.view.goToDefinition",
+					"when": "false"
+				},
+				{
+					"command": "sf.test.view.showError",
+					"when": "false"
+				},
+				{
+					"command": "sf.test.view.run",
+					"when": "false"
+				},
+				{
+					"command": "sf.test.view.refresh",
+					"when": "false"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "sf.test.view.showError",
+					"when": "view == sf.test.view && viewItem =~ /(apexTest|apexTestGroup)_Fail/"
+				},
+				{
+					"command": "sf.test.view.goToDefinition",
+					"when": "view == sf.test.view && viewItem =~ /(apexTest|apexTestGroup)(_Pass|_Skip|\\b)/"
+				},
+				{
+					"command": "sf.test.view.runClassTests",
+					"group": "inline",
+					"when": "view == sf.test.view && viewItem =~ /apexTestGroup/"
+				},
+				{
+					"command": "sf.test.view.runSingleTest",
+					"group": "inline",
+					"when": "view == sf.test.view && viewItem =~ /(apexTest)(_.*|\\b)/"
+				}
+			],
+			"view/title": [
+				{
+					"command": "sf.test.view.run",
+					"group": "navigation",
+					"when": "view == sf.test.view"
+				},
+				{
+					"command": "sf.test.view.refresh",
+					"group": "navigation",
+					"when": "view == sf.test.view"
+				}
+			]
+		},
+		"snippets": [
+			{
+				"language": "apex",
+				"path": "./snippets/apex.json"
+			}
+		],
+		"views": {
+			"test": [
+				{
+					"id": "sf.test.view",
+					"name": "%test_view_name%",
+					"when": "sf:project_opened"
+				}
+			]
+		},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"icon": "media/dep.svg",
+					"id": "test",
+					"title": "%test_view_container_title%"
+				}
+			]
+		}
+	},
+	"dependencies": {
+		"@salesforce/apex-tmlanguage": "1.4.0",
+		"@salesforce/core": "7.3.1",
+		"@salesforce/source-tracking": "6.0.4",
+		"@salesforce/templates": "^60.1.2",
+		"applicationinsights": "1.0.7",
+		"shelljs": "0.8.5"
+	},
+	"description": "Provides code-editing features for the Apex programming language",
+	"devDependencies": {},
+	"displayName": "Apex",
+	"engines": {
+		"vscode": "^1.82.0"
+	},
+	"extensionDependencies": [
+		"salesforce.salesforcedx-vscode-core"
+	],
+	"galleryBanner": {
+		"color": "#ECECEC",
+		"theme": "light"
+	},
+	"icon": "images/VSCodeApex.png",
+	"languageServerDir": "dist",
+	"license": "BSD-3-Clause",
+	"main": "dist/index.js",
+	"name": "salesforcedx-vscode-apex",
+	"publisher": "salesforce",
+	"qna": "https://github.com/forcedotcom/salesforcedx-vscode/issues",
+	"repository": {
+		"url": "https://github.com/forcedotcom/salesforcedx-vscode"
+	},
+	"scripts": {
+		"bundle:extension": "npm run bundle:extension:build && npm run bundle:extension:copy",
+		"bundle:extension:build": "esbuild ./src/index.ts  --bundle --outfile=dist/index.js --format=cjs --platform=node --external:vscode  --external:@salesforce/core --external:applicationinsights --external:shelljs --external:@salesforce/source-deploy-retrieve --external:@salesforce/source-tracking --minify",
+		"bundle:extension:copy": "cp ./out/apex-jorje-lsp.jar ./dist/",
+		"clean": "shx rm -rf node_modules && cd out && node ../../../scripts/clean-all-but-jar.js && shx rm -rf coverage && shx rm -rf .nyc_output",
+		"compile": "tsc -p ./",
+		"copy:files": "shx cp -R ../../node_modules/@salesforce/apex-tmlanguage/grammars .",
+		"lint": "eslint .",
+		"lint:fix": "npm run lint -- --fix",
+		"test": "npm run test:vscode-integration",
+		"test:unit": "jest --coverage",
+		"test:vscode-insiders-integration": "cross-env CODE_VERSION=insiders npm run test:vscode-integration",
+		"test:vscode-integration": "node ../../scripts/run-vscode-integration-tests-with-top-level-extensions",
+		"vscode:package": "ts-node  ../../scripts/vsce-bundled-extension.ts",
+		"vscode:publish": "node ../../scripts/publish-vsix.js",
+		"vscode:sha256": "node ../../scripts/generate-sha256.js >> ../../SHA256",
+		"watch": "tsc -watch -p ."
+	},
+	"version": "60.12.0",
+	"__metadata": {
+		"id": "fb928002-4623-4d99-b7e0-4a1d473e77a3",
+		"publisherId": "656b996d-3c70-47b4-937e-e77c013faeea",
+		"publisherDisplayName": "Salesforce",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1715751326976,
+		"pinned": false,
+		"source": "gallery"
+	}
+}
