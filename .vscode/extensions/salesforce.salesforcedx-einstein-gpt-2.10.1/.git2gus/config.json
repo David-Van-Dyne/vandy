@@ -1,0 +1,10 @@
+{
+  "productTag": "a1aEE000000dLNxYAM",
+  "issueTypeLabels": {
+    "feature": "USER STORY",
+    "bug": "BUG P2"
+  },
+  "defaultBuild": "offcore.tooling.61",
+  "hideWorkItemUrl": "true",
+  "statusWhenClosed": "CLOSED"
+}

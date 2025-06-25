@@ -1,0 +1,9 @@
+JVM:         C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\AccessTransformer\output.jar", "--output", "C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\SideStripper\output.jar", "--data", "C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\SideStripper\string_data.sas"
+Classpath:   C:\Users\vandy\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.7\mergetool-1.1.7-fatjar.jar
+Working Dir: C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\AccessTransformer\output.jar
+Output: C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\SideStripper\output.jar
+Data:   C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\SideStripper\string_data.sas

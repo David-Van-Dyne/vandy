@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "fmlcore",
+    "version": "1.21.5-55.0.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "eventbus",
+          "version": {
+            "requires": "6.2.27"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fmlcore-1.21.5-55.0.14.jar",
+          "url": "fmlcore-1.21.5-55.0.14.jar",
+          "size": 127088,
+          "sha512": "00b4c8c42dd0be920e1f416623374467bfae998f1f4590fb12b094a50d11ef730c652218f9eb602b5723ee8dabd8f96597b3bc3e2eed26c12c9cb65dfa433098",
+          "sha256": "03890ef0ed04932692e2dab11143cbd1602e9649e59ef32167fb44f97d25b169",
+          "sha1": "047d2199697f28a5ec9cc0e8ffd0a016ad0fdcab",
+          "md5": "50bb29b0f12db0c2f7c8b3aaa6bb8794"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "fmlloader",
+          "version": {
+            "requires": "1.21.5-55.0.14"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "eventbus",
+          "version": {
+            "requires": "6.2.27"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fmlcore-1.21.5-55.0.14.jar",
+          "url": "fmlcore-1.21.5-55.0.14.jar",
+          "size": 127088,
+          "sha512": "00b4c8c42dd0be920e1f416623374467bfae998f1f4590fb12b094a50d11ef730c652218f9eb602b5723ee8dabd8f96597b3bc3e2eed26c12c9cb65dfa433098",
+          "sha256": "03890ef0ed04932692e2dab11143cbd1602e9649e59ef32167fb44f97d25b169",
+          "sha1": "047d2199697f28a5ec9cc0e8ffd0a016ad0fdcab",
+          "md5": "50bb29b0f12db0c2f7c8b3aaa6bb8794"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fmlcore-1.21.5-55.0.14-sources.jar",
+          "url": "fmlcore-1.21.5-55.0.14-sources.jar",
+          "size": 59628,
+          "sha512": "1575c49641f98e032ddc687d3e6c2745b2d5241f75f7077908765458ccdba74121d39905f22040476e369150efe5d525001d8d4158a6e37f55ac6c87ac660b6a",
+          "sha256": "051ffe121b15a77e1096d9ea134e9ace21336626f712c8d26c502d6192f6b426",
+          "sha1": "8aa51f0312e117c026e2d9f727f50163a3673464",
+          "md5": "4684f25e63a38ce17764ce75c63f59a8"
+        }
+      ]
+    }
+  ]
+}

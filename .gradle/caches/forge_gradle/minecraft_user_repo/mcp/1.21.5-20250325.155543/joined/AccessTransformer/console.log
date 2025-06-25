@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\rename\output.jar", "--outJar", "C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\AccessTransformer\output.jar", "--atFile", "C:\Users\vandy\AppData\Local\Temp\FG_ats_5087168325561822751.cfg"
+Classpath:   C:\Users\vandy\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.1\accesstransformers-8.2.1-fatjar.jar
+Working Dir: C:\Users\vandy\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.21.5-20250325.155543\joined\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

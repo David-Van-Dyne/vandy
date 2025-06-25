@@ -1,0 +1,102 @@
+:root {
+  --vsc-blue: #0176d3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  border-bottom: 1px solid gray;
+  display: block;
+  width: 100%;
+  padding: 1em 0;
+}
+
+tr {
+  column-gap: 1em;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(175px, 15%) 30% 55%;
+  justify-items: start;
+  padding-left: 4em;
+  /* magic right padding that prevents the <html> from shrinking on smaller viewports */
+  padding-right: 12em;
+}
+
+td {
+  grid-row: 2;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table__data-row {
+  position: relative;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid gray;
+}
+
+.table__data-row:hover {
+  cursor: pointer;
+}
+
+.table__data-row:before {
+  font-family: 'codicon';
+  transform: rotate(-90deg);
+  position: absolute;
+  display: inline-block;
+  content: '\eab4';
+  left: 1.5em;
+  font-size: 1.25em;
+  top: 0.85em;
+}
+
+.table__data-row:hover:before {
+  cursor: pointer;
+}
+
+.table__data-row:not(.collapsed):before {
+  transform: rotate(0deg);
+  top: 0.75em;
+}
+
+.table__data-row:not(.collapsed) .completion {
+  white-space: pre-wrap;
+}
+
+.table__data-row.collapsed td {
+  white-space: nowrap;
+}
+
+.table__data-row.expanded td {
+  white-space: pre-wrap;
+}
+
+.command-prompt::before {
+  content: attr(data-command-prompt-prefix);
+  font-style: normal;
+}
+
+.command-prompt {
+  font-style: italic;
+}
+
+.completion {
+  font-family: monospace;
+}

@@ -1,0 +1,7 @@
+JVM:         C:\Users\vandy\.vscode\extensions\redhat.java-1.41.1-win32-x64\jre\21.0.6-win32-x86_64\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\stripClient\output.jar", "--server", "C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\stripServer\output.jar", "--ann", "1.21.5", "--output", "C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\vandy\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.2.3\mergetool-1.2.3-fatjar.jar
+Working Dir: C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Could not delete output file: C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\merge\output.jar

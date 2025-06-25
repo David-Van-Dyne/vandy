@@ -1,0 +1,16 @@
+JVM:         C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\mergeMappings\output.jar"
+Classpath:   C:\Users\vandy\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  C:\Users\vandy\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.21.5-20250325.155543\joined\mergeMappings\output.jar

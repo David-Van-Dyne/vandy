@@ -3,3 +3,6 @@
 [user]
 	name = Dave
 	email = vandyneperformance@gmail.com
+[filesystem "Eclipse Adoptium|11.0.27|203058770"]
+	timestampResolution = 998 microseconds
+	minRacyThreshold = 0 nanoseconds
