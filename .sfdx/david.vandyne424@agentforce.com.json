@@ -1,0 +1,12 @@
+{
+  "accessToken": "44d07db4531deea4c4db376604dddb317553e3e1fa252e772315577bb9ba9e0ff414c1b0b04de9f480648e716e60d7f177f8091c984bf3b8d73062dd77abb43a9c98d5da244b5ccac9f88a8670c6ade1514e5697d0b0fc9f85e504bbc0854608914df5079345d4e86b0941cf656b8b1f51a1751f697a:603a052e265692108cc5cb792f7873c5",
+  "instanceUrl": "https://orgfarm-e65c50f9bc-dev-ed.develop.my.salesforce.com",
+  "orgId": "00DgK000004ZHi6UAG",
+  "username": "david.vandyne424@agentforce.com",
+  "loginUrl": "https://login.salesforce.com/",
+  "refreshToken": "792bc9b620582fbcfc49f812ed288845bdd8e243c7574c8bbbfb98a1a04af74ebdc9a1d99c4ac85c1f471684d2705d4b9bdb8bb96041647dffdd463ebd3dbc970f7cc534c313c5a69cf87da893c0f4e80f11e5e65350b13aabb7817bb8:6c2b13280e9b251d8b4e00e20e45713d",
+  "clientId": "PlatformCLI",
+  "isDevHub": false,
+  "instanceApiVersion": "64.0",
+  "instanceApiVersionLastRetrieved": "6/25/2025, 10:47:04 AM"
+}
