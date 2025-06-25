@@ -1,0 +1,2 @@
+Not for EMU migration.
+OSPO approved `private` repo hosted in OSPO OSS org.

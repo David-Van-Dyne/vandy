@@ -1,0 +1,1884 @@
+/*---------------------------------------------------------------------------------------------
+ * This file is generated from the salesforce-dx icon repository. https://github.com/forcedotcom/salesforcedx-icons
+ * Copyright (c) 2024, salesforce.com, inc.
+ * All rights reserved.
+ * Licensed under the BSD 3-Clause license.
+ * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+ *--------------------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'seti-icons';
+  font-display: block;
+  src: url('./seti-icons.woff2?f382e883e9757f47a2748f255935a149') format('woff2');
+}
+
+.seti-icon[class*='seti-icon-'] {
+  font: normal normal normal 16px/1 seti-icons;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/*---------------------
+ *  Modifiers
+ *-------------------*/
+
+@keyframes seti-icon-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.seti-icon-sync.seti-icon-modifier-spin,
+.seti-icon-loading.seti-icon-modifier-spin,
+.seti-icon-gear.seti-icon-modifier-spin {
+  /* Use steps to throttle FPS to reduce CPU usage */
+  animation: seti-icon-spin 1.5s steps(30) infinite;
+}
+
+.seti-icon-modifier-disabled {
+  opacity: 0.5;
+}
+
+.seti-icon-modifier-hidden {
+  opacity: 0;
+}
+
+/* custom speed & easing for loading icon */
+.seti-icon-loading {
+  animation-duration: 1s !important;
+  animation-timing-function: cubic-bezier(0.53, 0.21, 0.29, 0.67) !important;
+}
+
+/*---------------------
+ *  Icons
+ *-------------------*/
+
+.seti-icon-R:before {
+  content: '\f900';
+}
+.seti-icon-apple:before {
+  content: '\f901';
+}
+.seti-icon-argdown:before {
+  content: '\f902';
+}
+.seti-icon-asm:before {
+  content: '\f903';
+}
+.seti-icon-audio:before {
+  content: '\f904';
+}
+.seti-icon-babel:before {
+  content: '\f905';
+}
+.seti-icon-bazel:before {
+  content: '\f906';
+}
+.seti-icon-bicep:before {
+  content: '\f907';
+}
+.seti-icon-bower:before {
+  content: '\f908';
+}
+.seti-icon-bsl:before {
+  content: '\f909';
+}
+.seti-icon-c-sharp:before {
+  content: '\f90a';
+}
+.seti-icon-c:before {
+  content: '\f90b';
+}
+.seti-icon-cake:before {
+  content: '\f90c';
+}
+.seti-icon-cake_php:before {
+  content: '\f90d';
+}
+.seti-icon-checkbox-unchecked:before {
+  content: '\f90e';
+}
+.seti-icon-checkbox:before {
+  content: '\f90f';
+}
+.seti-icon-cjsx:before {
+  content: '\f910';
+}
+.seti-icon-clock:before {
+  content: '\f911';
+}
+.seti-icon-clojure:before {
+  content: '\f912';
+}
+.seti-icon-code-climate:before {
+  content: '\f913';
+}
+.seti-icon-code-search:before {
+  content: '\f914';
+}
+.seti-icon-coffee:before {
+  content: '\f915';
+}
+.seti-icon-coffee_erb:before {
+  content: '\f916';
+}
+.seti-icon-coldfusion:before {
+  content: '\f917';
+}
+.seti-icon-config:before {
+  content: '\f918';
+}
+.seti-icon-cpp:before {
+  content: '\f919';
+}
+.seti-icon-crystal:before {
+  content: '\f91a';
+}
+.seti-icon-crystal_embedded:before {
+  content: '\f91b';
+}
+.seti-icon-css:before {
+  content: '\f91c';
+}
+.seti-icon-csv:before {
+  content: '\f91d';
+}
+.seti-icon-cu:before {
+  content: '\f91e';
+}
+.seti-icon-d:before {
+  content: '\f91f';
+}
+.seti-icon-dart:before {
+  content: '\f920';
+}
+.seti-icon-db:before {
+  content: '\f921';
+}
+.seti-icon-default:before {
+  content: '\f922';
+}
+.seti-icon-deprecation-cop:before {
+  content: '\f923';
+}
+.seti-icon-docker:before {
+  content: '\f924';
+}
+.seti-icon-editorconfig:before {
+  content: '\f925';
+}
+.seti-icon-ejs:before {
+  content: '\f926';
+}
+.seti-icon-elixir:before {
+  content: '\f927';
+}
+.seti-icon-elixir_script:before {
+  content: '\f928';
+}
+.seti-icon-elm:before {
+  content: '\f929';
+}
+.seti-icon-error:before {
+  content: '\f92a';
+}
+.seti-icon-eslint:before {
+  content: '\f92b';
+}
+.seti-icon-ethereum:before {
+  content: '\f92c';
+}
+.seti-icon-f-sharp:before {
+  content: '\f92d';
+}
+.seti-icon-favicon:before {
+  content: '\f92e';
+}
+.seti-icon-firebase:before {
+  content: '\f92f';
+}
+.seti-icon-firefox:before {
+  content: '\f930';
+}
+.seti-icon-folder:before {
+  content: '\f931';
+}
+.seti-icon-font:before {
+  content: '\f932';
+}
+.seti-icon-git:before {
+  content: '\f933';
+}
+.seti-icon-git_folder:before {
+  content: '\f934';
+}
+.seti-icon-git_ignore:before {
+  content: '\f935';
+}
+.seti-icon-github:before {
+  content: '\f936';
+}
+.seti-icon-gitlab:before {
+  content: '\f937';
+}
+.seti-icon-go:before {
+  content: '\f938';
+}
+.seti-icon-go2:before {
+  content: '\f939';
+}
+.seti-icon-godot:before {
+  content: '\f93a';
+}
+.seti-icon-gradle:before {
+  content: '\f93b';
+}
+.seti-icon-grails:before {
+  content: '\f93c';
+}
+.seti-icon-graphql:before {
+  content: '\f93d';
+}
+.seti-icon-grunt:before {
+  content: '\f93e';
+}
+.seti-icon-gulp:before {
+  content: '\f93f';
+}
+.seti-icon-hacklang:before {
+  content: '\f940';
+}
+.seti-icon-haml:before {
+  content: '\f941';
+}
+.seti-icon-happenings:before {
+  content: '\f942';
+}
+.seti-icon-haskell:before {
+  content: '\f943';
+}
+.seti-icon-haxe:before {
+  content: '\f944';
+}
+.seti-icon-heroku:before {
+  content: '\f945';
+}
+.seti-icon-hex:before {
+  content: '\f946';
+}
+.seti-icon-html:before {
+  content: '\f947';
+}
+.seti-icon-html_erb:before {
+  content: '\f948';
+}
+.seti-icon-ignored:before {
+  content: '\f949';
+}
+.seti-icon-illustrator:before {
+  content: '\f94a';
+}
+.seti-icon-image:before {
+  content: '\f94b';
+}
+.seti-icon-info:before {
+  content: '\f94c';
+}
+.seti-icon-ionic:before {
+  content: '\f94d';
+}
+.seti-icon-jade:before {
+  content: '\f94e';
+}
+.seti-icon-java:before {
+  content: '\f94f';
+}
+.seti-icon-javascript:before {
+  content: '\f950';
+}
+.seti-icon-jenkins:before {
+  content: '\f951';
+}
+.seti-icon-jinja:before {
+  content: '\f952';
+}
+.seti-icon-js_erb:before {
+  content: '\f953';
+}
+.seti-icon-json:before {
+  content: '\f954';
+}
+.seti-icon-julia:before {
+  content: '\f955';
+}
+.seti-icon-karma:before {
+  content: '\f956';
+}
+.seti-icon-kotlin:before {
+  content: '\f957';
+}
+.seti-icon-less:before {
+  content: '\f958';
+}
+.seti-icon-license:before {
+  content: '\f959';
+}
+.seti-icon-liquid:before {
+  content: '\f95a';
+}
+.seti-icon-livescript:before {
+  content: '\f95b';
+}
+.seti-icon-lock:before {
+  content: '\f95c';
+}
+.seti-icon-lua:before {
+  content: '\f95d';
+}
+.seti-icon-makefile:before {
+  content: '\f95e';
+}
+.seti-icon-markdown:before {
+  content: '\f95f';
+}
+.seti-icon-maven:before {
+  content: '\f960';
+}
+.seti-icon-mdo:before {
+  content: '\f961';
+}
+.seti-icon-mustache:before {
+  content: '\f962';
+}
+.seti-icon-new-file:before {
+  content: '\f963';
+}
+.seti-icon-nim:before {
+  content: '\f964';
+}
+.seti-icon-notebook:before {
+  content: '\f965';
+}
+.seti-icon-npm:before {
+  content: '\f966';
+}
+.seti-icon-npm_ignored:before {
+  content: '\f967';
+}
+.seti-icon-nunjucks:before {
+  content: '\f968';
+}
+.seti-icon-ocaml:before {
+  content: '\f969';
+}
+.seti-icon-odata:before {
+  content: '\f96a';
+}
+.seti-icon-pddl:before {
+  content: '\f96b';
+}
+.seti-icon-pdf:before {
+  content: '\f96c';
+}
+.seti-icon-perl:before {
+  content: '\f96d';
+}
+.seti-icon-photoshop:before {
+  content: '\f96e';
+}
+.seti-icon-php:before {
+  content: '\f96f';
+}
+.seti-icon-pipeline:before {
+  content: '\f970';
+}
+.seti-icon-plan:before {
+  content: '\f971';
+}
+.seti-icon-platformio:before {
+  content: '\f972';
+}
+.seti-icon-powershell:before {
+  content: '\f973';
+}
+.seti-icon-prisma:before {
+  content: '\f974';
+}
+.seti-icon-project:before {
+  content: '\f975';
+}
+.seti-icon-prolog:before {
+  content: '\f976';
+}
+.seti-icon-pug:before {
+  content: '\f977';
+}
+.seti-icon-puppet:before {
+  content: '\f978';
+}
+.seti-icon-purescript:before {
+  content: '\f979';
+}
+.seti-icon-python:before {
+  content: '\f97a';
+}
+.seti-icon-rails:before {
+  content: '\f97b';
+}
+.seti-icon-react:before {
+  content: '\f97c';
+}
+.seti-icon-reasonml:before {
+  content: '\f97d';
+}
+.seti-icon-rescript:before {
+  content: '\f97e';
+}
+.seti-icon-rollup:before {
+  content: '\f97f';
+}
+.seti-icon-ruby:before {
+  content: '\f980';
+}
+.seti-icon-rust:before {
+  content: '\f981';
+}
+.seti-icon-salesforce:before {
+  content: '\f982';
+}
+.seti-icon-sass:before {
+  content: '\f983';
+}
+.seti-icon-sbt:before {
+  content: '\f984';
+}
+.seti-icon-scala:before {
+  content: '\f985';
+}
+.seti-icon-search:before {
+  content: '\f986';
+}
+.seti-icon-settings:before {
+  content: '\f987';
+}
+.seti-icon-shell:before {
+  content: '\f988';
+}
+.seti-icon-slim:before {
+  content: '\f989';
+}
+.seti-icon-smarty:before {
+  content: '\f98a';
+}
+.seti-icon-spring:before {
+  content: '\f98b';
+}
+.seti-icon-stylelint:before {
+  content: '\f98c';
+}
+.seti-icon-stylus:before {
+  content: '\f98d';
+}
+.seti-icon-sublime:before {
+  content: '\f98e';
+}
+.seti-icon-svelte:before {
+  content: '\f98f';
+}
+.seti-icon-svg:before {
+  content: '\f990';
+}
+.seti-icon-swift:before {
+  content: '\f991';
+}
+.seti-icon-terraform:before {
+  content: '\f992';
+}
+.seti-icon-tex:before {
+  content: '\f993';
+}
+.seti-icon-time-cop:before {
+  content: '\f994';
+}
+.seti-icon-todo:before {
+  content: '\f995';
+}
+.seti-icon-tsconfig:before {
+  content: '\f996';
+}
+.seti-icon-twig:before {
+  content: '\f997';
+}
+.seti-icon-typescript:before {
+  content: '\f998';
+}
+.seti-icon-vala:before {
+  content: '\f999';
+}
+.seti-icon-video:before {
+  content: '\f99a';
+}
+.seti-icon-vue:before {
+  content: '\f99b';
+}
+.seti-icon-wasm:before {
+  content: '\f99c';
+}
+.seti-icon-wat:before {
+  content: '\f99d';
+}
+.seti-icon-webpack:before {
+  content: '\f99e';
+}
+.seti-icon-wgt:before {
+  content: '\f99f';
+}
+.seti-icon-windows:before {
+  content: '\f9a0';
+}
+.seti-icon-word:before {
+  content: '\f9a1';
+}
+.seti-icon-xls:before {
+  content: '\f9a2';
+}
+.seti-icon-xml:before {
+  content: '\f9a3';
+}
+.seti-icon-yarn:before {
+  content: '\f9a4';
+}
+.seti-icon-yml:before {
+  content: '\f9a5';
+}
+.seti-icon-zig:before {
+  content: '\f9a6';
+}
+.seti-icon-zip:before {
+  content: '\f9a7';
+}
+.seti-icon-vite:before {
+  content: '\f101';
+}
+
+/*---------------------
+ *  Colors
+ *-------------------*/
+
+:root {
+  --seti-white: #d4d7d6;
+  --seti-red: #cc3e44;
+  --seti-blue: #519aba;
+  --seti-green: #8dc149;
+  --seti-purple: #a074c4;
+  --seti-yellow: #cbcb41;
+  --seti-grey-light: #6d8086;
+  --seti-pink: #f55385;
+  --seti-orange: #e37933;
+  --seti-ignore: #41535b;
+  --seti-grey: #4d5a5e;
+}
+
+.seti-color-default:before {
+  color: var(--seti-white);
+}
+.seti-color-bsl:before {
+  color: var(--seti-red);
+}
+.seti-color-mdo:before {
+  color: var(--seti-red);
+}
+.seti-color-cls:before {
+  color: var(--seti-blue);
+}
+.seti-color-apex:before {
+  color: var(--seti-blue);
+}
+.seti-color-asm:before {
+  color: var(--seti-red);
+}
+.seti-color-s:before {
+  color: var(--seti-red);
+}
+.seti-color-bicep:before {
+  color: var(--seti-blue);
+}
+.seti-color-bzl:before {
+  color: var(--seti-green);
+}
+.seti-color-bazel:before {
+  color: var(--seti-green);
+}
+.seti-color-BUILD:before {
+  color: var(--seti-green);
+}
+.seti-color-WORKSPACE:before {
+  color: var(--seti-green);
+}
+.seti-color-bazelignore:before {
+  color: var(--seti-green);
+}
+.seti-color-bazelversion:before {
+  color: var(--seti-green);
+}
+.seti-color-c:before {
+  color: var(--seti-blue);
+}
+.seti-color-h:before {
+  color: var(--seti-purple);
+}
+.seti-color-m:before {
+  color: var(--seti-yellow);
+}
+.seti-color-cs:before {
+  color: var(--seti-blue);
+}
+.seti-color-cshtml:before {
+  color: var(--seti-blue);
+}
+.seti-color-aspx:before {
+  color: var(--seti-blue);
+}
+.seti-color-ascx:before {
+  color: var(--seti-green);
+}
+.seti-color-asax:before {
+  color: var(--seti-yellow);
+}
+.seti-color-master:before {
+  color: var(--seti-yellow);
+}
+.seti-color-cc:before {
+  color: var(--seti-blue);
+}
+.seti-color-cpp:before {
+  color: var(--seti-blue);
+}
+.seti-color-cxx:before {
+  color: var(--seti-blue);
+}
+.seti-color-c\+\+:before {
+  color: var(--seti-blue);
+}
+.seti-color-hh:before {
+  color: var(--seti-purple);
+}
+.seti-color-hpp:before {
+  color: var(--seti-purple);
+}
+.seti-color-hxx:before {
+  color: var(--seti-purple);
+}
+.seti-color-h\+\+:before {
+  color: var(--seti-purple);
+}
+.seti-color-mm:before {
+  color: var(--seti-yellow);
+}
+.seti-color-clj:before {
+  color: var(--seti-green);
+}
+.seti-color-cljs:before {
+  color: var(--seti-green);
+}
+.seti-color-cljc:before {
+  color: var(--seti-green);
+}
+.seti-color-edn:before {
+  color: var(--seti-blue);
+}
+.seti-color-cfc:before {
+  color: var(--seti-blue);
+}
+.seti-color-cfm:before {
+  color: var(--seti-blue);
+}
+.seti-color-coffee:before {
+  color: var(--seti-yellow);
+}
+.seti-color-litcoffee:before {
+  color: var(--seti-yellow);
+}
+.seti-color-config:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-cfg:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-conf:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-cr:before {
+  color: var(--seti-white);
+}
+.seti-color-ecr:before {
+  color: var(--seti-white);
+}
+.seti-color-slang:before {
+  color: var(--seti-white);
+}
+.seti-color-cson:before {
+  color: var(--seti-yellow);
+}
+.seti-color-css:before {
+  color: var(--seti-blue);
+}
+.seti-color-cssmap:before {
+  color: var(--seti-blue);
+}
+.seti-color-sss:before {
+  color: var(--seti-blue);
+}
+.seti-color-csv:before {
+  color: var(--seti-green);
+}
+.seti-color-xls:before {
+  color: var(--seti-green);
+}
+.seti-color-xlsx:before {
+  color: var(--seti-green);
+}
+.seti-color-cu:before {
+  color: var(--seti-green);
+}
+.seti-color-cuh:before {
+  color: var(--seti-purple);
+}
+.seti-color-hu:before {
+  color: var(--seti-purple);
+}
+.seti-color-cake:before {
+  color: var(--seti-red);
+}
+.seti-color-ctp:before {
+  color: var(--seti-red);
+}
+.seti-color-d:before {
+  color: var(--seti-red);
+}
+.seti-color-doc:before {
+  color: var(--seti-blue);
+}
+.seti-color-docx:before {
+  color: var(--seti-blue);
+}
+.seti-color-ejs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-ex:before {
+  color: var(--seti-purple);
+}
+.seti-color-exs:before {
+  color: var(--seti-purple);
+}
+.seti-color-mix:before {
+  color: var(--seti-red);
+}
+.seti-color-elm:before {
+  color: var(--seti-blue);
+}
+.seti-color-ico:before {
+  color: var(--seti-yellow);
+}
+.seti-color-fs:before {
+  color: var(--seti-blue);
+}
+.seti-color-fsx:before {
+  color: var(--seti-blue);
+}
+.seti-color-gitignore:before {
+  color: var(--seti-ignore);
+}
+.seti-color-gitconfig:before {
+  color: var(--seti-ignore);
+}
+.seti-color-gitkeep:before {
+  color: var(--seti-ignore);
+}
+.seti-color-gitattributes:before {
+  color: var(--seti-ignore);
+}
+.seti-color-gitmodules:before {
+  color: var(--seti-ignore);
+}
+.seti-color-COMMIT_EDITMSG:before {
+  color: var(--seti-ignore);
+}
+.seti-color-MERGE_MSG:before {
+  color: var(--seti-ignore);
+}
+.seti-color-go:before {
+  color: var(--seti-blue);
+}
+.seti-color-slide:before {
+  color: var(--seti-blue);
+}
+.seti-color-article:before {
+  color: var(--seti-blue);
+}
+.seti-color-gd:before {
+  color: var(--seti-blue);
+}
+.seti-color-godot:before {
+  color: var(--seti-red);
+}
+.seti-color-tres:before {
+  color: var(--seti-yellow);
+}
+.seti-color-tscn:before {
+  color: var(--seti-purple);
+}
+.seti-color-gradle:before {
+  color: var(--seti-blue);
+}
+.seti-color-groovy:before {
+  color: var(--seti-green);
+}
+.seti-color-gsp:before {
+  color: var(--seti-green);
+}
+.seti-color-gql:before {
+  color: var(--seti-pink);
+}
+.seti-color-graphql:before {
+  color: var(--seti-pink);
+}
+.seti-color-graphqls:before {
+  color: var(--seti-pink);
+}
+.seti-color-hack:before {
+  color: var(--seti-orange);
+}
+.seti-color-haml:before {
+  color: var(--seti-red);
+}
+.seti-color-handlebars:before {
+  color: var(--seti-orange);
+}
+.seti-color-hbs:before {
+  color: var(--seti-orange);
+}
+.seti-color-hjs:before {
+  color: var(--seti-orange);
+}
+.seti-color-hs:before {
+  color: var(--seti-purple);
+}
+.seti-color-lhs:before {
+  color: var(--seti-purple);
+}
+.seti-color-hx:before {
+  color: var(--seti-orange);
+}
+.seti-color-hxs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-hxp:before {
+  color: var(--seti-blue);
+}
+.seti-color-hxml:before {
+  color: var(--seti-purple);
+}
+.seti-color-html:before {
+  color: var(--seti-orange);
+}
+.seti-color-jade:before {
+  color: var(--seti-red);
+}
+.seti-color-java:before {
+  color: var(--seti-red);
+}
+.seti-color-class:before {
+  color: var(--seti-blue);
+}
+.seti-color-classpath:before {
+  color: var(--seti-red);
+}
+.seti-color-properties:before {
+  color: var(--seti-red);
+}
+.seti-color-js:before {
+  color: var(--seti-yellow);
+}
+.seti-color-jsmap:before {
+  color: var(--seti-yellow);
+}
+.seti-color-cjs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-cjsmap:before {
+  color: var(--seti-yellow);
+}
+.seti-color-mjs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-mjsmap:before {
+  color: var(--seti-yellow);
+}
+.seti-color-specjs:before {
+  color: var(--seti-orange);
+}
+.seti-color-speccjs:before {
+  color: var(--seti-orange);
+}
+.seti-color-specmjs:before {
+  color: var(--seti-orange);
+}
+.seti-color-testjs:before {
+  color: var(--seti-orange);
+}
+.seti-color-testcjs:before {
+  color: var(--seti-orange);
+}
+.seti-color-testmjs:before {
+  color: var(--seti-orange);
+}
+.seti-color-es:before {
+  color: var(--seti-yellow);
+}
+.seti-color-es5:before {
+  color: var(--seti-yellow);
+}
+.seti-color-es6:before {
+  color: var(--seti-yellow);
+}
+.seti-color-es7:before {
+  color: var(--seti-yellow);
+}
+.seti-color-jinja:before {
+  color: var(--seti-red);
+}
+.seti-color-jinja2:before {
+  color: var(--seti-red);
+}
+.seti-color-json:before {
+  color: var(--seti-yellow);
+}
+.seti-color-jl:before {
+  color: var(--seti-purple);
+}
+.seti-color-karmaconfjs:before {
+  color: var(--seti-green);
+}
+.seti-color-karmaconfcjs:before {
+  color: var(--seti-green);
+}
+.seti-color-karmaconfmjs:before {
+  color: var(--seti-green);
+}
+.seti-color-karmaconfcoffee:before {
+  color: var(--seti-green);
+}
+.seti-color-kt:before {
+  color: var(--seti-orange);
+}
+.seti-color-kts:before {
+  color: var(--seti-orange);
+}
+.seti-color-dart:before {
+  color: var(--seti-blue);
+}
+.seti-color-less:before {
+  color: var(--seti-blue);
+}
+.seti-color-liquid:before {
+  color: var(--seti-green);
+}
+.seti-color-ls:before {
+  color: var(--seti-blue);
+}
+.seti-color-lua:before {
+  color: var(--seti-blue);
+}
+.seti-color-markdown:before {
+  color: var(--seti-blue);
+}
+.seti-color-md:before {
+  color: var(--seti-blue);
+}
+.seti-color-argdown:before {
+  color: var(--seti-blue);
+}
+.seti-color-ad:before {
+  color: var(--seti-blue);
+}
+.seti-color-READMEmd:before {
+  color: var(--seti-blue);
+}
+.seti-color-READMEtxt:before {
+  color: var(--seti-blue);
+}
+.seti-color-README:before {
+  color: var(--seti-blue);
+}
+.seti-color-CHANGELOGmd:before {
+  color: var(--seti-blue);
+}
+.seti-color-CHANGELOGtxt:before {
+  color: var(--seti-blue);
+}
+.seti-color-CHANGELOG:before {
+  color: var(--seti);
+}
+.seti-color-CHANGESmd:before {
+  color: var(--seti-blue);
+}
+.seti-color-CHANGEStxt:before {
+  color: var(--seti-blue);
+}
+.seti-color-CHANGES:before {
+  color: var(--seti);
+}
+.seti-color-VERSIONmd:before {
+  color: var(--seti-blue);
+}
+.seti-color-VERSIONtxt:before {
+  color: var(--seti-blue);
+}
+.seti-color-VERSION:before {
+  color: var(--seti-blue);
+}
+.seti-color-mvnw:before {
+  color: var(--seti-red);
+}
+.seti-color-pomxml:before {
+  color: var(--seti-red);
+}
+.seti-color-mustache:before {
+  color: var(--seti-orange);
+}
+.seti-color-stache:before {
+  color: var(--seti-orange);
+}
+.seti-color-nim:before {
+  color: var(--seti-yellow);
+}
+.seti-color-nims:before {
+  color: var(--seti-yellow);
+}
+.seti-color-github-issues:before {
+  color: var(--seti-white);
+}
+.seti-color-ipynb:before {
+  color: var(--seti-blue);
+}
+.seti-color-njk:before {
+  color: var(--seti-green);
+}
+.seti-color-nunjucks:before {
+  color: var(--seti-green);
+}
+.seti-color-nunjs:before {
+  color: var(--seti-green);
+}
+.seti-color-nunj:before {
+  color: var(--seti-green);
+}
+.seti-color-njs:before {
+  color: var(--seti-green);
+}
+.seti-color-nj:before {
+  color: var(--seti-green);
+}
+.seti-color-npm-debuglog:before {
+  color: var(--seti-ignore);
+}
+.seti-color-npmignore:before {
+  color: var(--seti-red);
+}
+.seti-color-npmrc:before {
+  color: var(--seti-red);
+}
+.seti-color-ml:before {
+  color: var(--seti-orange);
+}
+.seti-color-mli:before {
+  color: var(--seti-orange);
+}
+.seti-color-cmx:before {
+  color: var(--seti-orange);
+}
+.seti-color-cmxa:before {
+  color: var(--seti-orange);
+}
+.seti-color-odata:before {
+  color: var(--seti-orange);
+}
+.seti-color-pl:before {
+  color: var(--seti-blue);
+}
+.seti-color-php:before {
+  color: var(--seti-purple);
+}
+.seti-color-phpinc:before {
+  color: var(--seti-purple);
+}
+.seti-color-pipeline:before {
+  color: var(--seti-orange);
+}
+.seti-color-pddl:before {
+  color: var(--seti-purple);
+}
+.seti-color-plan:before {
+  color: var(--seti-green);
+}
+.seti-color-happenings:before {
+  color: var(--seti-blue);
+}
+.seti-color-ps1:before {
+  color: var(--seti-blue);
+}
+.seti-color-psd1:before {
+  color: var(--seti-blue);
+}
+.seti-color-psm1:before {
+  color: var(--seti-blue);
+}
+.seti-color-prisma:before {
+  color: var(--seti-blue);
+}
+.seti-color-pug:before {
+  color: var(--seti-red);
+}
+.seti-color-pp:before {
+  color: var(--seti-yellow);
+}
+.seti-color-epp:before {
+  color: var(--seti-yellow);
+}
+.seti-color-purs:before {
+  color: var(--seti-white);
+}
+.seti-color-py:before {
+  color: var(--seti-blue);
+}
+.seti-color-jsx:before {
+  color: var(--seti-blue);
+}
+.seti-color-specjsx:before {
+  color: var(--seti-orange);
+}
+.seti-color-testjsx:before {
+  color: var(--seti-orange);
+}
+.seti-color-cjsx:before {
+  color: var(--seti-blue);
+}
+.seti-color-tsx:before {
+  color: var(--seti-blue);
+}
+.seti-color-spectsx:before {
+  color: var(--seti-orange);
+}
+.seti-color-testtsx:before {
+  color: var(--seti-orange);
+}
+.seti-color-re:before {
+  color: var(--seti-red);
+}
+.seti-color-res:before {
+  color: var(--seti-red);
+}
+.seti-color-resi:before {
+  color: var(--seti-pink);
+}
+.seti-color-R:before {
+  color: var(--seti-blue);
+}
+.seti-color-rmd:before {
+  color: var(--seti-blue);
+}
+.seti-color-rb:before {
+  color: var(--seti-red);
+}
+.seti-color-Gemfile:before {
+  color: var(--seti-red);
+}
+.seti-color-gemfile:before {
+  color: var(--seti-red);
+}
+.seti-color-erb:before {
+  color: var(--seti-red);
+}
+.seti-color-erbhtml:before {
+  color: var(--seti-red);
+}
+.seti-color-htmlerb:before {
+  color: var(--seti-red);
+}
+.seti-color-rs:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-sass:before {
+  color: var(--seti-pink);
+}
+.seti-color-scss:before {
+  color: var(--seti-pink);
+}
+.seti-color-springBeans:before {
+  color: var(--seti-green);
+}
+.seti-color-slim:before {
+  color: var(--seti-orange);
+}
+.seti-color-smartytpl:before {
+  color: var(--seti-yellow);
+}
+.seti-color-tpl:before {
+  color: var(--seti-yellow);
+}
+.seti-color-sbt:before {
+  color: var(--seti-blue);
+}
+.seti-color-scala:before {
+  color: var(--seti-red);
+}
+.seti-color-sol:before {
+  color: var(--seti-blue);
+}
+.seti-color-styl:before {
+  color: var(--seti-green);
+}
+.seti-color-svelte:before {
+  color: var(--seti-red);
+}
+.seti-color-swift:before {
+  color: var(--seti-orange);
+}
+.seti-color-sql:before {
+  color: var(--seti-pink);
+}
+.seti-color-soql:before {
+  color: var(--seti-blue);
+}
+.seti-color-tf:before {
+  color: var(--seti-purple);
+}
+.seti-color-tfjson:before {
+  color: var(--seti-purple);
+}
+.seti-color-tfvars:before {
+  color: var(--seti-purple);
+}
+.seti-color-tfvarsjson:before {
+  color: var(--seti-purple);
+}
+.seti-color-tex:before {
+  color: var(--seti-blue);
+}
+.seti-color-sty:before {
+  color: var(--seti-yellow);
+}
+.seti-color-dtx:before {
+  color: var(--seti-orange);
+}
+.seti-color-ins:before {
+  color: var(--seti-white);
+}
+.seti-color-txt:before {
+  color: var(--seti-white);
+}
+.seti-color-toml:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-twig:before {
+  color: var(--seti-green);
+}
+.seti-color-ts:before {
+  color: var(--seti-blue);
+}
+.seti-color-spects:before {
+  color: var(--seti-orange);
+}
+.seti-color-testts:before {
+  color: var(--seti-orange);
+}
+.seti-color-tsconfigjson:before {
+  color: var(--seti-blue);
+}
+.seti-color-vala:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-vapi:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-component:before {
+  color: var(--seti-orange);
+}
+.seti-color-viteconfigjs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-viteconfigts:before {
+  color: var(--seti-yellow);
+}
+.seti-color-viteconfigmjs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-viteconfigmts:before {
+  color: var(--seti-yellow);
+}
+.seti-color-viteconfigcjs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-viteconfigcts:before {
+  color: var(--seti-yellow);
+}
+.seti-color-vue:before {
+  color: var(--seti-green);
+}
+.seti-color-wasm:before {
+  color: var(--seti-purple);
+}
+.seti-color-wat:before {
+  color: var(--seti-purple);
+}
+.seti-color-xml:before {
+  color: var(--seti-orange);
+}
+.seti-color-yml:before {
+  color: var(--seti-purple);
+}
+.seti-color-yaml:before {
+  color: var(--seti-purple);
+}
+.seti-color-swaggerjson:before {
+  color: var(--seti-green);
+}
+.seti-color-swaggeryml:before {
+  color: var(--seti-green);
+}
+.seti-color-swaggeryaml:before {
+  color: var(--seti-green);
+}
+.seti-color-pro:before {
+  color: var(--seti-orange);
+}
+.seti-color-zig:before {
+  color: var(--seti-orange);
+}
+.seti-color-jar:before {
+  color: var(--seti-red);
+}
+.seti-color-zip:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-wgt:before {
+  color: var(--seti-blue);
+}
+.seti-color-ai:before {
+  color: var(--seti-yellow);
+}
+.seti-color-psd:before {
+  color: var(--seti-blue);
+}
+.seti-color-pdf:before {
+  color: var(--seti-red);
+}
+.seti-color-eot:before {
+  color: var(--seti-red);
+}
+.seti-color-ttf:before {
+  color: var(--seti-red);
+}
+.seti-color-woff:before {
+  color: var(--seti-red);
+}
+.seti-color-woff2:before {
+  color: var(--seti-red);
+}
+.seti-color-otf:before {
+  color: var(--seti-red);
+}
+.seti-color-avif:before {
+  color: var(--seti-purple);
+}
+.seti-color-gif:before {
+  color: var(--seti-purple);
+}
+.seti-color-jpg:before {
+  color: var(--seti-purple);
+}
+.seti-color-jpeg:before {
+  color: var(--seti-purple);
+}
+.seti-color-png:before {
+  color: var(--seti-purple);
+}
+.seti-color-pxm:before {
+  color: var(--seti-purple);
+}
+.seti-color-svg:before {
+  color: var(--seti-purple);
+}
+.seti-color-svgx:before {
+  color: var(--seti-purple);
+}
+.seti-color-tiff:before {
+  color: var(--seti-purple);
+}
+.seti-color-webp:before {
+  color: var(--seti-purple);
+}
+.seti-color-sublime-project:before {
+  color: var(--seti-orange);
+}
+.seti-color-sublime-workspace:before {
+  color: var(--seti-orange);
+}
+.seti-color-code-search:before {
+  color: var(--seti-purple);
+}
+.seti-color-sh:before {
+  color: var(--seti-green);
+}
+.seti-color-zsh:before {
+  color: var(--seti-green);
+}
+.seti-color-fish:before {
+  color: var(--seti-green);
+}
+.seti-color-zshrc:before {
+  color: var(--seti-green);
+}
+.seti-color-bashrc:before {
+  color: var(--seti-green);
+}
+.seti-color-mov:before {
+  color: var(--seti-pink);
+}
+.seti-color-ogv:before {
+  color: var(--seti-pink);
+}
+.seti-color-webm:before {
+  color: var(--seti-pink);
+}
+.seti-color-avi:before {
+  color: var(--seti-pink);
+}
+.seti-color-mpg:before {
+  color: var(--seti-pink);
+}
+.seti-color-mp4:before {
+  color: var(--seti-pink);
+}
+.seti-color-mp3:before {
+  color: var(--seti-purple);
+}
+.seti-color-ogg:before {
+  color: var(--seti-purple);
+}
+.seti-color-wav:before {
+  color: var(--seti-purple);
+}
+.seti-color-flac:before {
+  color: var(--seti-purple);
+}
+.seti-color-3ds:before {
+  color: var(--seti-blue);
+}
+.seti-color-3dm:before {
+  color: var(--seti-blue);
+}
+.seti-color-stl:before {
+  color: var(--seti-blue);
+}
+.seti-color-obj:before {
+  color: var(--seti-blue);
+}
+.seti-color-dae:before {
+  color: var(--seti-blue);
+}
+.seti-color-bat:before {
+  color: var(--seti-blue);
+}
+.seti-color-cmd:before {
+  color: var(--seti-blue);
+}
+.seti-color-mimetypes:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-Jenkinsfile:before {
+  color: var(--seti-red);
+}
+.seti-color-babelrc:before {
+  color: var(--seti-yellow);
+}
+.seti-color-babelrcjs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-babelrccjs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-babelconfigjs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-babelconfigjson:before {
+  color: var(--seti-yellow);
+}
+.seti-color-babelconfigcjs:before {
+  color: var(--seti-yellow);
+}
+.seti-color-BUILDbazel:before {
+  color: var(--seti-green);
+}
+.seti-color-WORKSPACEbazel:before {
+  color: var(--seti-green);
+}
+.seti-color-bazelrc:before {
+  color: var(--seti-grey);
+}
+.seti-color-bowerjson:before {
+  color: var(--seti-orange);
+}
+.seti-color-Bowerjson:before {
+  color: var(--seti-orange);
+}
+.seti-color-bowerrc:before {
+  color: var(--seti-orange);
+}
+.seti-color-dockerfile:before {
+  color: var(--seti-blue);
+}
+.seti-color-Dockerfile:before {
+  color: var(--seti-blue);
+}
+.seti-color-DOCKERFILE:before {
+  color: var(--seti-blue);
+}
+.seti-color-dockerignore:before {
+  color: var(--seti-grey);
+}
+.seti-color-docker-healthcheck:before {
+  color: var(--seti-green);
+}
+.seti-color-docker-composeyml:before {
+  color: var(--seti-pink);
+}
+.seti-color-docker-composeyaml:before {
+  color: var(--seti-pink);
+}
+.seti-color-docker-composeoverrideyml:before {
+  color: var(--seti-pink);
+}
+.seti-color-docker-composeoverrideyaml:before {
+  color: var(--seti-pink);
+}
+.seti-color-codeclimateyml:before {
+  color: var(--seti-green);
+}
+.seti-color-eslintrc:before {
+  color: var(--seti-purple);
+}
+.seti-color-eslintrcjs:before {
+  color: var(--seti-purple);
+}
+.seti-color-eslintrccjs:before {
+  color: var(--seti-purple);
+}
+.seti-color-eslintrcyaml:before {
+  color: var(--seti-purple);
+}
+.seti-color-eslintrcyml:before {
+  color: var(--seti-purple);
+}
+.seti-color-eslintrcjson:before {
+  color: var(--seti-purple);
+}
+.seti-color-eslintignore:before {
+  color: var(--seti-grey);
+}
+.seti-color-eslintconfigjs:before {
+  color: var(--seti-purple);
+}
+.seti-color-firebaserc:before {
+  color: var(--seti-orange);
+}
+.seti-color-firebasejson:before {
+  color: var(--seti-orange);
+}
+.seti-color-geckodriver:before {
+  color: var(--seti-orange);
+}
+.seti-color-gitlab-ciyml:before {
+  color: var(--seti-orange);
+}
+.seti-color-Gruntfilejs:before {
+  color: var(--seti-orange);
+}
+.seti-color-gruntfilebabeljs:before {
+  color: var(--seti-orange);
+}
+.seti-color-Gruntfilebabeljs:before {
+  color: var(--seti-orange);
+}
+.seti-color-gruntfilejs:before {
+  color: var(--seti-orange);
+}
+.seti-color-Gruntfilecoffee:before {
+  color: var(--seti-orange);
+}
+.seti-color-gruntfilecoffee:before {
+  color: var(--seti-orange);
+}
+.seti-color-GULPFILE:before {
+  color: var(--seti-red);
+}
+.seti-color-Gulpfile:before {
+  color: var(--seti-red);
+}
+.seti-color-gulpfile:before {
+  color: var(--seti-red);
+}
+.seti-color-gulpfilejs:before {
+  color: var(--seti-red);
+}
+.seti-color-ionicconfigjson:before {
+  color: var(--seti-blue);
+}
+.seti-color-Ionicconfigjson:before {
+  color: var(--seti-blue);
+}
+.seti-color-ionicproject:before {
+  color: var(--seti-blue);
+}
+.seti-color-Ionicproject:before {
+  color: var(--seti-blue);
+}
+.seti-color-jshintrc:before {
+  color: var(--seti-blue);
+}
+.seti-color-jscsrc:before {
+  color: var(--seti-blue);
+}
+.seti-color-platformioini:before {
+  color: var(--seti-orange);
+}
+.seti-color-rollupconfigjs:before {
+  color: var(--seti-red);
+}
+.seti-color-sass-lintyml:before {
+  color: var(--seti-pink);
+}
+.seti-color-stylelintrc:before {
+  color: var(--seti-white);
+}
+.seti-color-stylelintrcjson:before {
+  color: var(--seti-white);
+}
+.seti-color-stylelintrcyaml:before {
+  color: var(--seti-white);
+}
+.seti-color-stylelintrcyml:before {
+  color: var(--seti-white);
+}
+.seti-color-stylelintrcjs:before {
+  color: var(--seti-white);
+}
+.seti-color-stylelintignore:before {
+  color: var(--seti-grey);
+}
+.seti-color-stylelintconfigjs:before {
+  color: var(--seti-white);
+}
+.seti-color-stylelintconfigcjs:before {
+  color: var(--seti-white);
+}
+.seti-color-stylelintconfigmjs:before {
+  color: var(--seti-white);
+}
+.seti-color-yarnclean:before {
+  color: var(--seti-blue);
+}
+.seti-color-yarnlock:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackconfigjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackconfigcjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackconfigmjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackconfigts:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackconfigbuildjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackconfigbuildcjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackconfigbuildmjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackconfigbuildts:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackcommonjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackcommoncjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackcommonmjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackcommonts:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackdevjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackdevcjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackdevmjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackdevts:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackprodjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackprodcjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackprodmjs:before {
+  color: var(--seti-blue);
+}
+.seti-color-webpackprodts:before {
+  color: var(--seti-blue);
+}
+.seti-color-direnv:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-env:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-static:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-editorconfig:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-slugignore:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-tmp:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-htaccess:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-key:before {
+  color: var(--seti-green);
+}
+.seti-color-cert:before {
+  color: var(--seti-green);
+}
+.seti-color-cer:before {
+  color: var(--seti-green);
+}
+.seti-color-crt:before {
+  color: var(--seti-green);
+}
+.seti-color-pem:before {
+  color: var(--seti-green);
+}
+.seti-color-LICENSE:before {
+  color: var(--seti-yellow);
+}
+.seti-color-LICENCE:before {
+  color: var(--seti-yellow);
+}
+.seti-color-LICENSEtxt:before {
+  color: var(--seti-yellow);
+}
+.seti-color-LICENCEtxt:before {
+  color: var(--seti-yellow);
+}
+.seti-color-LICENSEmd:before {
+  color: var(--seti-yellow);
+}
+.seti-color-LICENCEmd:before {
+  color: var(--seti-yellow);
+}
+.seti-color-COPYING:before {
+  color: var(--seti-yellow);
+}
+.seti-color-COPYINGtxt:before {
+  color: var(--seti-yellow);
+}
+.seti-color-COPYINGmd:before {
+  color: var(--seti-yellow);
+}
+.seti-color-COMPILING:before {
+  color: var(--seti-orange);
+}
+.seti-color-COMPILINGtxt:before {
+  color: var(--seti-orange);
+}
+.seti-color-COMPILINGmd:before {
+  color: var(--seti-orange);
+}
+.seti-color-CONTRIBUTING:before {
+  color: var(--seti-red);
+}
+.seti-color-CONTRIBUTINGtxt:before {
+  color: var(--seti-red);
+}
+.seti-color-CONTRIBUTINGmd:before {
+  color: var(--seti-red);
+}
+.seti-color-MAKEFILE:before {
+  color: var(--seti-orange);
+}
+.seti-color-Makefile:before {
+  color: var(--seti-orange);
+}
+.seti-color-makefile:before {
+  color: var(--seti-orange);
+}
+.seti-color-QMAKEFILE:before {
+  color: var(--seti-purple);
+}
+.seti-color-QMakefile:before {
+  color: var(--seti-purple);
+}
+.seti-color-qmakefile:before {
+  color: var(--seti-purple);
+}
+.seti-color-OMAKEFILE:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-OMakefile:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-omakefile:before {
+  color: var(--seti-grey-light);
+}
+.seti-color-CMAKELISTSTXT:before {
+  color: var(--seti-blue);
+}
+.seti-color-CMAKELISTStxt:before {
+  color: var(--seti-blue);
+}
+.seti-color-CMakeListstxt:before {
+  color: var(--seti-blue);
+}
+.seti-color-cmakeliststxt:before {
+  color: var(--seti-blue);
+}
+.seti-color-Procfile:before {
+  color: var(--seti-purple);
+}
