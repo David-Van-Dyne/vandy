@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incident_Record_Type</fullName>
+    <active>true</active>
+    <businessProcess>Incidents</businessProcess>
+    <label>Incident Record Type</label>
+    <picklistValues>
+        <picklist>Incident_Type__c</picklist>
+        <values>
+            <fullName>Alarm Activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disorderly Conduct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door%2FAccess Point Left Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evacuation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fire%2FSmoke Detection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost%2FFound Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slip%2FTrip%2FFall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspicious Activity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Theft%2FAttempted Theft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trespassing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unauthorized Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vandalism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verbal or Physical Threat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Policy_Violated__c</picklist>
+        <values>
+            <fullName>Attendance Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uniform %26 Appearance Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use of Force Policy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Position__c</picklist>
+        <values>
+            <fullName>Access Control Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Armed Security Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concierge Security Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispatcher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fire Watch Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Guard%2FShift Supervisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss Prevention Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Patrol Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patrol Supervisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security Analyst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security Guard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Supervisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surveillance Operator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training Officer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PotentialLiability__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>GC1020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5060</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Breakdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Complexity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLAViolation__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Violation_Type__c</picklist>
+        <values>
+            <fullName>Insubordination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negligence of Duty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tardiness%2FNo-Show</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

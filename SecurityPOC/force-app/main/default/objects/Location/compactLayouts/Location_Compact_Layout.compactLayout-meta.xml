@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Compact_Layout</fullName>
+    <fields>Account__c</fields>
+    <fields>Name</fields>
+    <fields>Number_of_Guards_Assigned__c</fields>
+    <fields>Location_Address__c</fields>
+    <label>Location Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shift_Type__c</fullName>
+    <description>What shift are they currently assigned</description>
+    <label>Shift Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st</fullName>
+                <default>false</default>
+                <label>1st</label>
+            </value>
+            <value>
+                <fullName>2nd</fullName>
+                <default>false</default>
+                <label>2nd</label>
+            </value>
+            <value>
+                <fullName>3rd</fullName>
+                <default>false</default>
+                <label>3rd</label>
+            </value>
+            <value>
+                <fullName>Rotating</fullName>
+                <default>false</default>
+                <label>Rotating</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

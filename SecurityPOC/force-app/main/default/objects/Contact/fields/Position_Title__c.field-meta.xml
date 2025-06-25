@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Position_Title__c</fullName>
+    <label>Position Title</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Security Guard</fullName>
+                <default>false</default>
+                <label>Security Guard</label>
+            </value>
+            <value>
+                <fullName>Armed Security Officer</fullName>
+                <default>false</default>
+                <label>Armed Security Officer</label>
+            </value>
+            <value>
+                <fullName>Mobile Patrol Officer</fullName>
+                <default>false</default>
+                <label>Mobile Patrol Officer</label>
+            </value>
+            <value>
+                <fullName>Access Control Officer</fullName>
+                <default>false</default>
+                <label>Access Control Officer</label>
+            </value>
+            <value>
+                <fullName>Supervisor</fullName>
+                <default>false</default>
+                <label>Supervisor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

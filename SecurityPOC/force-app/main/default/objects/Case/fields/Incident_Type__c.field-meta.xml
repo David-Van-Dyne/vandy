@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incident_Type__c</fullName>
+    <label>Incident Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unauthorized Access</fullName>
+                <default>false</default>
+                <label>Unauthorized Access</label>
+            </value>
+            <value>
+                <fullName>Door/Access Point Left Open</fullName>
+                <default>false</default>
+                <label>Door/Access Point Left Open</label>
+            </value>
+            <value>
+                <fullName>Alarm Activation</fullName>
+                <default>false</default>
+                <label>Alarm Activation</label>
+            </value>
+            <value>
+                <fullName>Disorderly Conduct</fullName>
+                <default>false</default>
+                <label>Disorderly Conduct</label>
+            </value>
+            <value>
+                <fullName>Trespassing</fullName>
+                <default>false</default>
+                <label>Trespassing</label>
+            </value>
+            <value>
+                <fullName>Verbal or Physical Threat</fullName>
+                <default>false</default>
+                <label>Verbal or Physical Threat</label>
+            </value>
+            <value>
+                <fullName>Assault</fullName>
+                <default>false</default>
+                <label>Assault</label>
+            </value>
+            <value>
+                <fullName>Theft/Attempted Theft</fullName>
+                <default>false</default>
+                <label>Theft/Attempted Theft</label>
+            </value>
+            <value>
+                <fullName>Vandalism</fullName>
+                <default>false</default>
+                <label>Vandalism</label>
+            </value>
+            <value>
+                <fullName>Property Damage</fullName>
+                <default>false</default>
+                <label>Property Damage</label>
+            </value>
+            <value>
+                <fullName>Lost/Found Property</fullName>
+                <default>false</default>
+                <label>Lost/Found Property</label>
+            </value>
+            <value>
+                <fullName>Medical Emergency</fullName>
+                <default>false</default>
+                <label>Medical Emergency</label>
+            </value>
+            <value>
+                <fullName>Fire/Smoke Detection</fullName>
+                <default>false</default>
+                <label>Fire/Smoke Detection</label>
+            </value>
+            <value>
+                <fullName>Evacuation</fullName>
+                <default>false</default>
+                <label>Evacuation</label>
+            </value>
+            <value>
+                <fullName>Slip/Trip/Fall</fullName>
+                <default>false</default>
+                <label>Slip/Trip/Fall</label>
+            </value>
+            <value>
+                <fullName>Policy Violation</fullName>
+                <default>false</default>
+                <label>Policy Violation</label>
+            </value>
+            <value>
+                <fullName>Suspicious Activity</fullName>
+                <default>false</default>
+                <label>Suspicious Activity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

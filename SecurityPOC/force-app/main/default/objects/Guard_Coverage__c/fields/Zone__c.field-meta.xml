@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zone__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Zone</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Location__c</field>
+            <operation>equals</operation>
+            <valueField>Zone__c.Location__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Zone__c</referenceTo>
+    <relationshipName>Event_Coverages</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
