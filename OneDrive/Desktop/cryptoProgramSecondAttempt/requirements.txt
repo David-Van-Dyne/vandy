@@ -1,0 +1,33 @@
+# Core trading and cryptocurrency libraries
+ccxt>=4.0.0
+requests>=2.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Flask web framework for mobile API server
+Flask>=2.3.0
+Flask-CORS>=4.0.0
+
+# Configuration and environment management
+python-dotenv>=1.0.0
+
+# Job scheduling and timing
+schedule>=1.2.0
+
+# Date/time utilities
+python-dateutil>=2.8.2
+
+# System and process utilities
+psutil>=5.9.8
+
+# Email notifications (optional)
+smtplib
+email-validator>=2.0.0
+
+# Cloud deployment dependencies
+gunicorn>=21.0.0
+whitenoise>=6.0.0
+
+# Optional technical analysis (uncomment if needed)
+# ta>=0.10.2
+# matplotlib>=3.8.2

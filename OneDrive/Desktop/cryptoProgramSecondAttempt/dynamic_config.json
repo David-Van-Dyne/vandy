@@ -1,0 +1,104 @@
+{
+  "generated_at": "2025-07-29T22:10:00.000000",
+  "version": "2.0_fully_dynamic",
+  "note": "Position sizes now calculated dynamically from current balance",
+  "total_pairs": 5,
+  "trading_pairs": {
+    "KNC/USD": {
+      "enabled": true,
+      "allocation_weight": 1.2,
+      "take_profit_percent": 8.0,
+      "stop_loss_percent": 3.0,
+      "timeframe": "15m",
+      "min_balance": 0.1,
+      "short_sma": 3,
+      "long_sma": 8,
+      "opportunity_score": 65.3,
+      "last_updated": "2025-07-29T22:10:00.000000"
+    },
+    "BAT/USD": {
+      "enabled": true,
+      "allocation_weight": 1.0,
+      "take_profit_percent": 3.3,
+      "stop_loss_percent": 1.5,
+      "timeframe": "15m",
+      "min_balance": 0.1,
+      "short_sma": 3,
+      "long_sma": 8,
+      "opportunity_score": 51.1,
+      "last_updated": "2025-07-29T22:10:00.000000"
+    },
+    "BCH/USD": {
+      "enabled": true,
+      "allocation_weight": 1.0,
+      "take_profit_percent": 3.2,
+      "stop_loss_percent": 1.4,
+      "timeframe": "15m",
+      "min_balance": 0.001,
+      "short_sma": 3,
+      "long_sma": 8,
+      "opportunity_score": 46.4,
+      "last_updated": "2025-07-29T22:10:00.000000"
+    },
+    "CRV/USD": {
+      "enabled": false,
+      "allocation_weight": 0.0,
+      "take_profit_percent": 4.3,
+      "stop_loss_percent": 2.2,
+      "timeframe": "15m",
+      "min_balance": 0.1,
+      "short_sma": 3,
+      "long_sma": 8,
+      "opportunity_score": 46.1,
+      "last_updated": "2025-07-29T22:10:00.000000"
+    },
+    "DOGE/USD": {
+      "enabled": true,
+      "allocation_weight": 1.1,
+      "take_profit_percent": 3.9,
+      "stop_loss_percent": 1.9,
+      "timeframe": "15m",
+      "min_balance": 10.0,
+      "short_sma": 3,
+      "long_sma": 8,
+      "opportunity_score": 44.1,
+      "last_updated": "2025-07-29T22:10:00.000000"
+    },
+    "SUSHI/USD": {
+      "enabled": false,
+      "allocation_weight": 0.0,
+      "take_profit_percent": 4.2,
+      "stop_loss_percent": 2.1,
+      "timeframe": "15m",
+      "min_balance": 0.1,
+      "short_sma": 3,
+      "long_sma": 8,
+      "opportunity_score": 41.8,
+      "last_updated": "2025-07-29T22:10:00.000000"
+    },
+    "APE/USD": {
+      "enabled": false,
+      "allocation_weight": 0.0,
+      "take_profit_percent": 3.3,
+      "stop_loss_percent": 1.5,
+      "timeframe": "15m",
+      "min_balance": 0.1,
+      "short_sma": 3,
+      "long_sma": 8,
+      "opportunity_score": 41.3,
+      "last_updated": "2025-07-29T22:10:00.000000"
+    },
+    "AVAX/USD": {
+      "enabled": true,
+      "allocation_weight": 1.0,
+      "take_profit_percent": 3.4,
+      "stop_loss_percent": 1.6,
+      "timeframe": "15m",
+      "min_balance": 0.01,
+      "short_sma": 3,
+      "long_sma": 8,
+      "opportunity_score": 39.7,
+      "last_updated": "2025-07-29T22:10:00.000000"
+    }
+  }
+}
